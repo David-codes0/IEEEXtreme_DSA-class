@@ -1,0 +1,17 @@
+Binary Search
+
+Procedure: binary_search (x: integer; A1,A2,....,An: increasing integers)
+
+i: 1 {i is left endpoint of Search interval}
+j: n {j is the right endpoint of search interval}
+
+while i < j
+begin 
+    m := ((i+j)/2)  {m is the point in the middle}
+    if x > Am then i:m+1
+    else j:= m
+end
+if x= Ai then location:= i
+else location:= 0
+
+{location is the subscript of the term that equals x, or it is 0 if x is not found}
