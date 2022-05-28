@@ -1,3 +1,0 @@
-def maximum_elements(.....): [a1,a2,a3,a4,a5......aN]
-    minSoFar = -10
-    for

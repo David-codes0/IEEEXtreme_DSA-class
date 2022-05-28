@@ -1,0 +1,9 @@
+Maximum  Element  Pseudocode
+    
+Procedure: max(A1,A2,.....,An: integers)
+max : = A1
+
+for i = 2 to n
+    if max < ai then then max := ai
+
+    {max is the largest element}
